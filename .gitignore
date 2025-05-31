@@ -1,0 +1,35 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+
+# Env file with API keys
+.env
+
+# Streamlit cache
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
