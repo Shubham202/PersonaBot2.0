@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from transcript_cache import get_transcript_text
 import google.generativeai as genai
 
-load_dotenv(dotenv_path="D:/Gen AI Cohort/API/.env")
+load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
