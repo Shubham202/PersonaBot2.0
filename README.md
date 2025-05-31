@@ -21,7 +21,7 @@ A fun and educational chatbot simulating conversations between [Hitesh Choudhary
 
 2. **Create a .env file**
 
-Inside your project directory, create a .env file and add:
+    Inside your project directory, create a .env file and add:
 ``` 
 
     OPENAI_API_KEY=your_openai_key_here
